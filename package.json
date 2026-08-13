@@ -1,0 +1,79 @@
+{
+  "name": "mynetwork",
+  "version": "1.1.0",
+  "description": "myNetwork — cross-platform LAN & port scanner with a beautiful GUI",
+  "main": "src/main.js",
+  "author": "jarifovi <https://github.com/jarifovi>",
+  "license": "MIT",
+  "homepage": "https://github.com/jarifovi/mynetwork-scanner",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jarifovi/mynetwork-scanner.git"
+  },
+  "scripts": {
+    "test": "node --test",
+    "test:coverage": "node --test --experimental-test-coverage",
+    "audit": "node scripts/audit-supply-chain.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "start": "electron .",
+    "start:nosandbox": "electron . --no-sandbox",
+    "dev": "electron . --dev --no-sandbox",
+    "dist": "electron-builder",
+    "dist:linux": "electron-builder --linux",
+    "dist:win": "electron-builder --win",
+    "dist:mac": "electron-builder --mac"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "electron": "^31.0.0",
+    "electron-builder": "^24.13.3",
+    "eslint": "^10.7.0",
+    "globals": "^17.7.0"
+  },
+  "build": {
+    "appId": "com.mynetwork.app",
+    "productName": "myNetwork",
+    "icon": "build/icon.png",
+    "files": [
+      "src/**/*",
+      "build/icon.png",
+      "package.json"
+    ],
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ],
+      "category": "Network",
+      "icon": "build/icon.png",
+      "maintainer": "jarifovi <https://github.com/jarifovi>"
+    },
+    "win": {
+      "target": [
+        "nsis"
+      ]
+    },
+    "mac": {
+      "target": [
+        {
+          "target": "dmg",
+          "arch": "universal"
+        }
+      ],
+      "category": "public.app-category.utilities"
+    },
+    "nsis": {
+      "artifactName": "myNetwork-windows.${ext}"
+    },
+    "dmg": {
+      "artifactName": "myNetwork-macos.${ext}"
+    },
+    "appImage": {
+      "artifactName": "myNetwork-linux.${ext}"
+    },
+    "deb": {
+      "artifactName": "myNetwork-linux.${ext}"
+    }
+  }
+}
