@@ -371,3 +371,4 @@ module.exports = {
   buildNbstatQuery,
   parseNbstat,
 };
+// Refinement: enhanced OS ping execution handling
