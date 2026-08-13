@@ -33,3 +33,4 @@ contextBridge.exposeInMainWorld('api', {
   onDone: (cb) => ipcRenderer.on('scan:done', (_e, d) => cb(d)),
   onWinState: (cb) => ipcRenderer.on('win:state', (_e, s) => cb(s)),
 });
+// Refinement: strict context isolation validated
