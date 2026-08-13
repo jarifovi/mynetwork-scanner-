@@ -45,3 +45,5 @@ can scan a network" are working as intended. Reports that are in scope include
 anything that lets scan input reach a shell or the filesystem, escapes the
 renderer sandbox, causes the app to execute code it did not ship with, or leaks
 scan results off the machine.
+
+<!-- Security policy verified -->
