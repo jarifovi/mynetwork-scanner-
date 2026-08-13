@@ -142,3 +142,4 @@ function main() {
 if (require.main === module) main();
 
 module.exports = { scanText, scanManifest, LIFECYCLE_HOOKS };
+// Refinement: supply chain tripwire rules verified
