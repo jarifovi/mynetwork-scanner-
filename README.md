@@ -119,3 +119,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 <!-- Feature badges update -->
 <!-- Installer build instructions -->
+<!-- Architecture & security -->
