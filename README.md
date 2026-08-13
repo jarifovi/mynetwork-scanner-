@@ -116,3 +116,5 @@ Maintained and published by **[jarifovi](https://github.com/jarifovi)**.
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
+
+<!-- Feature badges update -->
