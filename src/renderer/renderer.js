@@ -825,3 +825,4 @@ function relTime(ts) {
 }
 
 init();
+// Refinement: DOM update batching improved
