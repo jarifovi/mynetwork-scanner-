@@ -121,3 +121,4 @@ This project is licensed under the [MIT License](LICENSE).
 <!-- Installer build instructions -->
 <!-- Architecture & security -->
 <!-- Maintainer attribution -->
+<!-- Release configuration -->
