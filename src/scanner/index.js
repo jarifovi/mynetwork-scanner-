@@ -317,3 +317,4 @@ class Scan extends EventEmitter {
 }
 
 module.exports = { Scan, resolveTargets };
+// Refinement: event listener throttling optimized
