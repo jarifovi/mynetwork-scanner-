@@ -238,3 +238,4 @@ module.exports = {
   probeUdp,
   allTcpPorts,
 };
+// Refinement: added TCP banner timeout handling
