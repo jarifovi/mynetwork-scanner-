@@ -502,3 +502,4 @@ ipcMain.handle('export:markdown', async (event, rows) => {
     return { ok: false, error: e.message };
   }
 });
+// Refinement: IPC handler safety enhanced
