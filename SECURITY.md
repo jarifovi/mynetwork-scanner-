@@ -2,7 +2,7 @@
 
 ## Reporting a vulnerability
 
-Please use [private vulnerability reporting](https://github.com/jarifovi/mynetwork-scanner/security/advisories/new) rather than opening a public issue.
+Please use [private vulnerability reporting](https://github.com/jarifovi/mynetwork-scanner-/security/advisories/new) rather than opening a public issue.
 
 If you spot malicious code in an open pull request, the opposite applies — say so
 publicly on that PR, since anyone running the branch needs to know. Reports of
@@ -15,7 +15,7 @@ found it. A reproduction is helpful but not required.
 ## Supported versions
 
 Fixes go into the latest release only. Installers are published as
-[GitHub releases](https://github.com/jarifovi/mynetwork-scanner/releases) built by the
+[GitHub releases](https://github.com/jarifovi/mynetwork-scanner-/releases) built by the
 `release.yml` workflow from a tagged commit; nothing is published by hand.
 
 ## What this app deliberately does not do

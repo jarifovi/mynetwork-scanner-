@@ -5,10 +5,10 @@
   "main": "src/main.js",
   "author": "jarifovi <https://github.com/jarifovi>",
   "license": "MIT",
-  "homepage": "https://github.com/jarifovi/mynetwork-scanner",
+  "homepage": "https://github.com/jarifovi/mynetwork-scanner-",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jarifovi/mynetwork-scanner.git"
+    "url": "https://github.com/jarifovi/mynetwork-scanner-.git"
   },
   "scripts": {
     "test": "node --test",

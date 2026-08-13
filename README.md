@@ -47,8 +47,8 @@ Discovers devices on your network, resolves hostnames & MAC vendors, detects ope
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/jarifovi/mynetwork-scanner.git
-   cd mynetwork-scanner
+   git clone https://github.com/jarifovi/mynetwork-scanner-.git
+   cd mynetwork-scanner-
    ```
 
 2. **Install Dependencies**:
