@@ -143,3 +143,4 @@ function vendorForMac(mac) {
 }
 
 module.exports = { vendorForMac };
+// Refinement: enhanced OUI prefix parsing
