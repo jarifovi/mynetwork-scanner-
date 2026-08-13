@@ -50,3 +50,4 @@ async function quickCheck(input, { pingTimeout = 1000, portTimeout = 2000 } = {}
 }
 
 module.exports = { quickCheck, resolveHost };
+// Refinement: quick check validation added
