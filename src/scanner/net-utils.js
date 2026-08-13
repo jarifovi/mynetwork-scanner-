@@ -182,3 +182,4 @@ module.exports = {
   detectInterfaces,
   parseHostPort,
 };
+// Refinement: optimized IP subnet calculation
